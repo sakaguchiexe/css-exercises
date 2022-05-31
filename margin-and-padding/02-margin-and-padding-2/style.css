@@ -15,19 +15,23 @@ body {
   margin-bottom: 10px;
   margin-top: 0;
   font-size: 20px;
+  padding: 5px;
 }
 
 .content {
   background: #e3f4ff;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 .button-container {
   background: #e3f4ff;
   margin-top: 10px;
+  padding: 5px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 5px 10px;
 }
