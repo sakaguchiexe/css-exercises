@@ -61,6 +61,7 @@ button.continue {
   border: 1px solid royalblue;
   color: white;
   font-weight: bold;
+  margin-right: 5px;
 }
 
 button.cancel {
