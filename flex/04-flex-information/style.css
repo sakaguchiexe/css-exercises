@@ -20,6 +20,7 @@ img {
 .media-container {
   display: flex;
   flex-flow: column wrap;
+  text-align: center;
 }
 
 /* do not edit this footer */
