@@ -19,6 +19,7 @@ img {
 
 .media-container {
   display: flex;
+  flex-flow: column wrap;
 }
 
 /* do not edit this footer */
