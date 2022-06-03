@@ -23,6 +23,7 @@ img {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
+  flex: 0 1 200px;
 }
 
 /* do not edit this footer */
