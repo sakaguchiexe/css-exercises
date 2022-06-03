@@ -15,6 +15,7 @@ img {
 
 .information {
   display: flex;
+  justify-content: center;
 }
 
 .media-container {
