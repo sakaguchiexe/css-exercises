@@ -55,8 +55,6 @@ ul {
   gap: 10px;
 }
 
-.right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.notifications {
+  margin-left: auto;
 }
