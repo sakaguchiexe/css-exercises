@@ -50,6 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
@@ -75,4 +76,25 @@ button.cancel {
 .header {
   font-weight: bold;
   font-size: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.exclamation {
+  display: flex;
+}
+
+.information {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.buttons {
+  display: flex;
+}
+
+.exit {
+  display: flex;
 }
