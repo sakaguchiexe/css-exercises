@@ -36,3 +36,19 @@ a {
   color: rgb(83, 83, 83);
   text-decoration: none;
 }
+
+.header {
+  margin: 10px;
+  display: flex;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
