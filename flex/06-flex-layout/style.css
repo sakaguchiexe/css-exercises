@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -59,7 +61,8 @@ a {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .buttons {
@@ -73,4 +76,11 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: lightgray;
+  display: flex;
 }
