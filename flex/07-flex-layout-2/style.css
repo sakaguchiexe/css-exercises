@@ -37,6 +37,7 @@ a {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  flex: 0 1 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +46,7 @@ a {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -55,8 +57,10 @@ a {
 }
 
 .cards {
+  margin: 40px;
   display: flex;
   flex-flow: row wrap;
+  gap: 20px;
 }
 
 .card {
@@ -64,4 +68,5 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  padding: 20px;
 }
