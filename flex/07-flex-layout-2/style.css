@@ -37,7 +37,6 @@ a {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +51,7 @@ a {
 
 .content {
   display: flex;
+  flex: 1;
 }
 
 .cards {
