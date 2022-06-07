@@ -4,6 +4,16 @@ body {
   min-height: 100vh;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+}
+
+li {
+  padding: 5px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
